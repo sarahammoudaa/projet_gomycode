@@ -44,3 +44,16 @@ likeItem.forEach(function(image) {
     }
   });
 });
+
+
+$(document).ready(function() {
+  $('.cart').on('click', function() {
+    var cartCount = $('.nav-link .count');
+    var cartCountValue = parseInt(cartCount.text());
+
+    cartCountValue++;
+    cartCount.text(cartCountValue);
+  });
+});
+
+

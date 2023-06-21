@@ -80,6 +80,12 @@ header {
     font-family: 'Lora', serif;
     ;
 }
+#section-b h1:hover {
+  color: #000000; /* Set the text color to black */
+  text-shadow: 0 0 10px #6e906e, 0 0 20px #b4bfb4, 0 0 30px #00ff00, 0 0 40px #00ff00; /* Apply the neon glow effect */
+  cursor: pointer;
+
+}
 
 #section-b p {
     letter-spacing: 1px;
@@ -416,17 +422,49 @@ header {
 .cart {
   margin-top: 16px;
   margin-left: 22px;
-  height: 61px;
+  height: 55px;
   border-radius: 4px;
-  background-color: #586259;
+  background-color: #808682;
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
   transition: all ease 0.5s;
   position: relative;
+  color: #fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.count{
+
+.nav-link {
   position: relative;
-  height: 20px;
+  display: inline-block;
 }
+
+.nav-link img {
+  border-radius: 10px;
+  width: 25px;
+  margin-bottom: 14px;
+  padding-left: 55px;
+}
+
+
+
+.count {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  background-color: #85CB33;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -1px;
+  left: 112px;
+  color: #586259;
+  border-radius: 50%;
+}
+
 
